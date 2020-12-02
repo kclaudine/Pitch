@@ -27,9 +27,9 @@ You need to have Python3 to run this website.
  
  `pip3 install -r requirements.txt`
 
-Run the website at https://minutesss.herokuapp.com/
+Run the website at https://github.com/kclaudine/Pitch.git/
 
 
 
 License
-MIT ©2018
+MIT ©2020
