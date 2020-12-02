@@ -6,9 +6,9 @@ def setUp(self):
     '''
     Sets up the tests to be tested
     '''
-    self.user_Pascira = User(username = 'pascira',firstname='testname1',lastname='testname2',password = 'passtest', email = 'test@test.com')
-    self.pitch_one = Pitch(pitch = 'heyTest',category = 'Product',user = self.user_Pascira)
-    self.new_comment = Comment(comment = 'nice test',pitch = self.pitch_one,user = user_Pascira)
+    self.user_Kcoco = User(username = 'kcoco',firstname='testname1',lastname='testname2',password = 'passtest', email = 'test@test.com')
+    self.pitch_one = Pitch(pitch = 'heyTest',category = 'Product',user = self.user_Kcoco)
+    self.new_comment = Comment(comment = 'nice test',pitch = self.pitch_one,user = user_Kcoco)
 
 
 def tearDown(self):
@@ -25,7 +25,7 @@ def test_check_instance_variables(self):
     '''
     self.assertEquals(self.pitch_one.pitch,'heyTest')
     self.assertEquals(self.pitch_one.category,'Product')
-    self.assertEquals(self.pitch_one.user,self.user_Pascira)
+    self.assertEquals(self.pitch_one.user,self.user_Kcoco)
 
 def test_instance_of_comment(self):
     '''
@@ -33,7 +33,7 @@ def test_instance_of_comment(self):
     '''
     self.assertEquals(self.new_comment.comment,'nice test')
     self.assertEquals(self.new_comment.pitch,self.pitch_one)
-    self.assertEquals(self.new_comment.user,self.user_Pascira)
+    self.assertEquals(self.new_comment.user,self.user_Kcoco)
 
 def test_save_picth(self):
     self.pitch_one.save_pitch()
