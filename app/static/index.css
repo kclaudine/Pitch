@@ -1,0 +1,73 @@
+body{
+  background-image: url("https://www.quickanddirtytips.com/sites/default/files/styles/article_main_image/public/images/19436/pitch-black.jpg?itok=GCVUdoC4");
+
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+img {
+  width:150px;
+  height: 100px;
+}
+#one {
+  font-family: fantasy;
+}
+.title {
+  color: blueviolet;
+}
+.panel{
+    color:white;
+    opacity: 0.8;
+}
+h1 {
+    text-align: center;
+}
+#pi {
+  margin-bottom: 20%;
+}
+#nav{
+  margin-bottom: 10%;
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    background-color: black;
+}
+.navbar{
+    padding: 10px 0;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 40px;
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.navbar-brand span{
+    color: tomato;
+    font-family: 'Lobster', cursive;
+    font-style: italic;
+}
+.navbar-dark .navbar-brand{
+    color: #dcdde1;
+}
+.nav-link{
+    font-weight: bolder;
+    padding-left: 20px;
+    font-size: 25px;
+    color: black;
+
+}
+.nav-link:hover{
+    color: tomato;
+    border-radius: 1px;
+}
+.active a{
+  color: tomato;
+}
+.active a:hover{
+    color: white;
+}

@@ -1,0 +1,14 @@
+
+{% extends 'base.html' %}
+{% import 'macros.html' as macro %}
+
+{%block content%}
+<hr>
+<div class="container" style="margin-top:10%">
+    <h1 >Business Pitches</h1>
+    <div class="row">
+        {{macro.displayPitches(pitches)}}
+    </div>
+</div>
+{%endblock%}
+
