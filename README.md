@@ -23,7 +23,7 @@ You need to have Python3 to run this website.
 
  `$ git clone <this-repository>`
  
- Create a virtual environment
+ Create a virtual environment.
  
  `pip3 install -r requirements.txt`
 
