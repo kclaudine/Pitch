@@ -11,7 +11,7 @@ This website will:
 1. display the pitches that have been posted.
 2. allow the user to pitch an idea.
 3. allow the user to review pitches that have been posted.
-4. allow the user to select a category
+4. allow the user to select a category.
 
 #### Technologies
 Python
